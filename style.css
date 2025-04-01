@@ -1,6 +1,7 @@
-* {
+body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: bisque;
+    box-sizing: border-box;
 }
 
 h1,
@@ -10,8 +11,15 @@ h2 {
 }
 
 h1 {
-    background-color: antiquewhite;
+    background-color: rgb(255, 249, 240);
+}
+
+.hero {
+    background-color: rgb(255, 249, 240);
     text-align: center;
+    padding: 8px;
+    width: 800px;
+    margin: 0 auto 20px;
 }
 
 .recipe-img {
@@ -19,11 +27,33 @@ h1 {
     height: auto;
 }
 
-ul,
-ol {
-    font-size: 12px;
+.hero-img {
+    width: 400px;
+    margin: 0 auto 20px;
 }
+
 
 .menu {
     font-size: 20px;
+    width: 800px;
+    padding: 8px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu-item {
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 249, 240);
+}
+
+.description,
+.ingredients,
+.steps {
+    background-color: rgb(255, 249, 240);
+    width: 800px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    border-radius: 5px;
 }
